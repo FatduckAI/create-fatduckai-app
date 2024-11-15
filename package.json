@@ -1,0 +1,21 @@
+{
+  "name": "v2",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "dotenv -e .env -- tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@fatduckai/ai": "^0.3.3",
+    "dotenv-cli": "^7.4.2",
+    "openai": "^4.72.0",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.19.2"
+  }
+}
